@@ -29,3 +29,11 @@ Der Förderansatz erscheint als ansteigender Bergweg mit vier Stationen. Auf den
 ## Interaktive Projektkarte – Cooktastic
 
 Drei Bildpunkte im Berg öffnen Fotos, Erläuterungen und weiterführende Links per Mouseover, Tastaturfokus, Klick oder Antippen. Einblicke bleiben für die Bedienung ihrer Links geöffnet; Schließen ist über das Kreuz oder Escape möglich. Mobile Auswahl führt zur Detailfläche. Das Beispiel verwendet die vorhandenen öffentlichen Projektbilder.
+
+## Deutscher Ausbau
+
+- Projektübersicht mit Regionsauswahl, vier ausgewählten Projektgeschichten und einem Verzeichnis der 37 bisherigen deutschen Projektberichte. Der SINA-Beitrag und die Verzeichniseinträge verlinken derzeit auf den bisherigen öffentlichen Auftritt.
+- Neue Projektseite für Don Bosco Sachsen.
+- House-of-Hope-Karte mit fünf Bildpunkten, Originalbildern und ausführlichen Angebotsabschnitten. Familienarbeit ist als weiterführender Ansatz eingeordnet.
+- Aktuelles & Einblicke mit einer quellenbasierten Schlafsackaktion, Projektverweisen und vier Presseverweisen. Spendeninformationen werden über den bestehenden Aufruf der Stiftung erschlossen. Es wurden keine neuen Veröffentlichungsdaten oder Spendenziele erfunden.
+- Ausschließlich deutsche Seiten; englischer Ausbau folgt separat.

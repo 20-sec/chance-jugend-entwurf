@@ -1,12 +1,14 @@
-const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#navigation');toggle?.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Menü öffnen':'Menü schließen');nav.classList.toggle('open',!expanded)});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('open')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){toggle?.setAttribute('aria-expanded','false');nav?.classList.remove('open')}});const context=new URLSearchParams(location.search).get('anliegen');const subjects={idee:'Eigene Förderidee – erstes Gespräch',cooktastic:'Cooktastic unterstützen','house-of-hope':'House of Hope and Glory unterstützen',foerdern:'Ein bestehendes Projekt fördern'};const mail=document.querySelector('#contact-mail');if(mail&&subjects[context])mail.href='mailto:info@chance-jugend.de?subject='+encodeURIComponent(subjects[context]);
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#navigation');toggle?.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Menü öffnen':'Menü schließen');nav.classList.toggle('open',!expanded)});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('open')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){toggle?.setAttribute('aria-expanded','false');nav?.classList.remove('open')}});const context=new URLSearchParams(location.search).get('anliegen');const subjects={idee:'Eigene Förderidee – erstes Gespräch',cooktastic:'Cooktastic unterstützen','house-of-hope':'House of Hope and Glory unterstützen',foerdern:'Ein bestehendes Projekt fördern','don-bosco-sachsen':'Don Bosco Sachsen unterstützen'};const mail=document.querySelector('#contact-mail');if(mail&&subjects[context])mail.href='mailto:info@chance-jugend.de?subject='+encodeURIComponent(subjects[context]);
 // Explore project details through hover, keyboard focus, click or touch.
 const explorer=document.querySelector('.map-explorer');
 if(explorer){
- const entries={
+ const defaultEntries={
   praxis:{image:'assets/cooktastic-3.jpg',alt:'Ein Cooktastic-Teilnehmer arbeitet mit frischen Zutaten in der Küche',title:'In der Küche lernen',text:'Handgriffe üben, Zutaten verarbeiten und das Gelernte anwenden: Praktische Arbeit ist Teil der Ausbildung bei Cooktastic.',href:'#ausbildung',link:'Mehr zur Ausbildung ↗'},
   ausbildung:{image:'assets/cooktastic-2.jpg',alt:'Ein junger Koch beim Projekt Cooktastic',title:'Ausbildung mit Anschluss',text:'Auf Theorie und Praxis folgt eine Phase bei Partnerbetrieben. Dort können die Teilnehmenden ihre Fähigkeiten vertiefen und Kontakte knüpfen.',href:'#perspektive',link:'Die berufliche Perspektive ansehen ↗'},
   perspektive:{image:'assets/cooktastic-1.jpg',alt:'Ein junger Koch im Restaurant beim Projekt Cooktastic',title:'Den nächsten Schritt ermöglichen',text:'Sie möchten berufliche Chancen fördern? Im Gespräch klären wir, welche Unterstützung das Projekt aktuell braucht.',href:'kontakt.html?anliegen=cooktastic',link:'Über Cooktastic sprechen ↗'}
  };
+ const mapData=document.querySelector('#map-data');
+ const entries=mapData?JSON.parse(mapData.textContent):defaultEntries;
  const points=[...document.querySelectorAll('[data-map-point]')];
  const intro=explorer.querySelector('.map-intro');
  const detail=explorer.querySelector('.map-detail');
@@ -31,3 +33,14 @@ if(explorer){
  explorer.querySelector('.map-close').addEventListener('click',()=>close(true));
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&active){event.preventDefault();close(true);}});
 }
+
+const filters=[...document.querySelectorAll('[data-filter]')];
+filters.forEach(button=>button.addEventListener('click',()=>{
+ const region=button.dataset.filter;
+ filters.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+ document.querySelectorAll('[data-region]').forEach(item=>item.hidden=region!=='alle'&&item.dataset.region!==region);
+ const count=[...document.querySelectorAll('.selected-projects .project-card')].filter(c=>!c.hidden).length;
+ const directoryCount=[...document.querySelectorAll('.project-directory li')].filter(c=>!c.hidden).length;
+ document.querySelector('#filter-status').textContent=count+(count===1?' Projektgeschichte · ':' Projektgeschichten · ')+directoryCount+' Einträge im Verzeichnis';
+ document.querySelector('.filter-empty').hidden=count!==0;
+}));
