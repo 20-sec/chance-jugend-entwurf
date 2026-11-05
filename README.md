@@ -25,3 +25,7 @@ Bildrechte und Markenrechte verbleiben bei den jeweiligen Rechteinhabern. Es wir
 ## Bergweg
 
 Der Förderansatz erscheint als ansteigender Bergweg mit vier Stationen. Auf den Projektseiten werden die jeweiligen Schwerpunkte hervorgehoben; die übrigen Stationen bleiben als Kontext sichtbar. Auf schmalen Bildschirmen wird der Weg vertikal lesbar dargestellt.
+
+## Interaktive Projektkarte – Cooktastic
+
+Drei Bildpunkte im Berg öffnen Fotos, Erläuterungen und weiterführende Links per Mouseover, Tastaturfokus, Klick oder Antippen. Einblicke bleiben für die Bedienung ihrer Links geöffnet; Schließen ist über das Kreuz oder Escape möglich. Mobile Auswahl führt zur Detailfläche. Das Beispiel verwendet die vorhandenen öffentlichen Projektbilder.
