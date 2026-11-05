@@ -21,3 +21,7 @@ Die Vorschau verwendet keine Analysewerkzeuge, Cookies, externen Schriften oder 
 Projektinformationen und Fotos stammen aus dem bisherigen öffentlichen Auftritt der Stiftung unter https://chance-jugend.de/ (Cooktastic und House of Hope and Glory); das Logo ebenfalls. Gestaltung und Formulierungen dieser Vorschau sind Entwürfe zur Abstimmung. Zahlen ohne geprüften Zeitbezug sind bewusst nicht eingebaut. Die Vorschau ist kein Nachweis einer Abnahme durch die Stiftung.
 
 Bildrechte und Markenrechte verbleiben bei den jeweiligen Rechteinhabern. Es wird keine freie Lizenz an Fotos oder Logo erteilt. Interne Arbeitsunterlagen, Korrespondenz und Transkripte sind nicht Bestandteil dieses Repositories.
+
+## Bergweg
+
+Der Förderansatz erscheint als ansteigender Bergweg mit vier Stationen. Auf den Projektseiten werden die jeweiligen Schwerpunkte hervorgehoben; die übrigen Stationen bleiben als Kontext sichtbar. Auf schmalen Bildschirmen wird der Weg vertikal lesbar dargestellt.
