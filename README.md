@@ -47,3 +47,7 @@ Die Logo-Fassungen verwenden den unveränderten Originalumriss mit einer SVG-Far
 ## Eigene Spendenseite
 
 `spenden.html` übernimmt die Informationen zum bestehenden Spendenkonto in die neue Gestaltung. Hauptnavigation, Spendenaufruf und Kontaktseite führen intern dorthin. Die IBAN-Kopierfunktion bestätigt den Erfolg erst nach erfolgreichem Zugriff auf die Zwischenablage; andernfalls wird manuelles Kopieren angeboten. Bankdaten wurden mit der offiziellen bisherigen Spendenseite abgeglichen. Der Einstieg „Spenden & engagieren“ verwendet jetzt einen Pfeil nach rechts oben.
+
+## Ergänzender Pressehinweis
+
+Ralfs Mail vom 9. November 2026 enthält einen Link der Berliner Zeitung zu Kindern in Kiew vor dem nächsten Kriegswinter. Dieser ist unter „Presse & Hintergründe“ als weiterführender Pressehinweis verlinkt; keine Behauptung einer Berichterstattung über die Stiftung und keine Übernahme des nicht abrufbaren Artikeltexts.
