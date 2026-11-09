@@ -37,3 +37,9 @@ Drei Bildpunkte im Berg öffnen Fotos, Erläuterungen und weiterführende Links 
 - House-of-Hope-Karte mit fünf Bildpunkten, Originalbildern und ausführlichen Angebotsabschnitten. Familienarbeit ist als weiterführender Ansatz eingeordnet.
 - Aktuelles & Einblicke mit einer quellenbasierten Schlafsackaktion, Projektverweisen und vier Presseverweisen. Spendeninformationen werden über den bestehenden Aufruf der Stiftung erschlossen. Es wurden keine neuen Veröffentlichungsdaten oder Spendenziele erfunden.
 - Ausschließlich deutsche Seiten; englischer Ausbau folgt separat.
+
+## Rückmeldung vom 9. November 2026
+
+Eigene Förderidee und Spenden/Engagement erhalten gleichwertige Schaltflächen im Einstieg. Der zuvor wiederholte Ideenblock ist nun ein eigenständiger Spendenaufruf; der Spendenknopf führt zum bestehenden offiziellen Spendenkonto auf chance-jugend.de/index.php/de/mitmachen. Ein zusätzlicher Spendenlink steht in der Hauptnavigation.
+
+Die Logo-Fassungen verwenden den unveränderten Originalumriss mit einer SVG-Farbzuordnung: „Chance“ kräftig grau (#666a6b), „Jugend“ schwarz; auf dunklem Hintergrund „Chance“ sehr hellgrau (#deded9), „Jugend“ weiß. Das Original-PNG bleibt erhalten.
