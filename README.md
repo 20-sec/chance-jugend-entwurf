@@ -50,4 +50,4 @@ Die Logo-Fassungen verwenden den unveränderten Originalumriss mit einer SVG-Far
 
 ## Ergänzender Pressehinweis
 
-Ralfs Mail vom 9. November 2026 enthält einen Link der Berliner Zeitung zu Kindern in Kiew vor dem nächsten Kriegswinter. Dieser ist unter „Presse & Hintergründe“ als weiterführender Pressehinweis verlinkt; keine Behauptung einer Berichterstattung über die Stiftung und keine Übernahme des nicht abrufbaren Artikeltexts.
+Ralfs Mail vom 9. November 2026 enthält einen Link der Berliner Zeitung zu Kindern in Kiew vor dem nächsten Kriegswinter. Dieser ist unter „Presse & Hintergründe“ als weiterführender Pressehinweis verlinkt; keine Behauptung einer Berichterstattung über die Stiftung und keine Übernahme des Artikeltexts. Im Browser geprüft: Originaltitel, Autor Ralf M. Ruthardt, Datum 04.11.2026; Volltext hinter B+-Zugang.
