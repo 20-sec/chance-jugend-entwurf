@@ -1,4 +1,4 @@
-const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#navigation');toggle?.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Menü öffnen':'Menü schließen');nav.classList.toggle('open',!expanded)});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('open')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){toggle?.setAttribute('aria-expanded','false');nav?.classList.remove('open')}});const context=new URLSearchParams(location.search).get('anliegen');const subjects={idee:'Eigene Förderidee – erstes Gespräch',cooktastic:'Cooktastic unterstützen','house-of-hope':'House of Hope and Glory unterstützen',foerdern:'Ein bestehendes Projekt fördern','don-bosco-sachsen':'Don Bosco Sachsen unterstützen'};const mail=document.querySelector('#contact-mail');if(mail&&subjects[context])mail.href='mailto:info@chance-jugend.de?subject='+encodeURIComponent(subjects[context]);
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#navigation');toggle?.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Menü öffnen':'Menü schließen');nav.classList.toggle('open',!expanded)});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('open')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){toggle?.setAttribute('aria-expanded','false');nav?.classList.remove('open')}});const context=new URLSearchParams(location.search).get('anliegen');const subjects={spenden:'Frage zu Spende oder Spendenbescheinigung',idee:'Eigene Förderidee – erstes Gespräch',cooktastic:'Cooktastic unterstützen','house-of-hope':'House of Hope and Glory unterstützen',foerdern:'Ein bestehendes Projekt fördern','don-bosco-sachsen':'Don Bosco Sachsen unterstützen'};const mail=document.querySelector('#contact-mail');if(mail&&subjects[context])mail.href='mailto:info@chance-jugend.de?subject='+encodeURIComponent(subjects[context]);
 // Explore project details through hover, keyboard focus, click or touch.
 const explorer=document.querySelector('.map-explorer');
 if(explorer){
@@ -44,3 +44,14 @@ filters.forEach(button=>button.addEventListener('click',()=>{
  document.querySelector('#filter-status').textContent=count+(count===1?' Projektgeschichte · ':' Projektgeschichten · ')+directoryCount+' Einträge im Verzeichnis';
  document.querySelector('.filter-empty').hidden=count!==0;
 }));
+
+const copyIban=document.querySelector('#copy-iban');
+copyIban?.addEventListener('click',async()=>{
+ const status=document.querySelector('#copy-status');
+ try{
+  await navigator.clipboard.writeText('DE29770500000302378716');
+  status.textContent='Die IBAN wurde kopiert.';
+ }catch{
+  status.textContent='Bitte markieren und kopieren Sie die IBAN oben.';
+ }
+});

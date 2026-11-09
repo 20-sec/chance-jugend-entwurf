@@ -43,3 +43,7 @@ Drei Bildpunkte im Berg öffnen Fotos, Erläuterungen und weiterführende Links 
 Eigene Förderidee und Spenden/Engagement erhalten gleichwertige Schaltflächen im Einstieg. Der zuvor wiederholte Ideenblock ist nun ein eigenständiger Spendenaufruf; der Spendenknopf führt zum bestehenden offiziellen Spendenkonto auf chance-jugend.de/index.php/de/mitmachen. Ein zusätzlicher Spendenlink steht in der Hauptnavigation.
 
 Die Logo-Fassungen verwenden den unveränderten Originalumriss mit einer SVG-Farbzuordnung: „Chance“ kräftig grau (#666a6b), „Jugend“ schwarz; auf dunklem Hintergrund „Chance“ sehr hellgrau (#deded9), „Jugend“ weiß. Das Original-PNG bleibt erhalten.
+
+## Eigene Spendenseite
+
+`spenden.html` übernimmt die Informationen zum bestehenden Spendenkonto in die neue Gestaltung. Hauptnavigation, Spendenaufruf und Kontaktseite führen intern dorthin. Die IBAN-Kopierfunktion bestätigt den Erfolg erst nach erfolgreichem Zugriff auf die Zwischenablage; andernfalls wird manuelles Kopieren angeboten. Bankdaten wurden mit der offiziellen bisherigen Spendenseite abgeglichen. Der Einstieg „Spenden & engagieren“ verwendet jetzt einen Pfeil nach rechts oben.
