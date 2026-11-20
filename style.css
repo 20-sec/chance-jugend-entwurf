@@ -46,3 +46,43 @@
 .news-placeholder .project-image{display:grid;place-items:center;background:#efece1;color:var(--muted);font-size:11px;letter-spacing:.16em;font-weight:700}
 .news-placeholder h3,.news-placeholder p,.news-placeholder .project-meta{padding-inline:18px}
 @media(max-width:800px){.board-line{grid-template-columns:1fr;gap:38px;max-width:360px}.board-line:before{left:50%;right:auto;top:47px;bottom:60px;border-top:0;border-left:2px dashed #9baf98}.board-member{background:var(--mint);padding-bottom:6px}.foundation-claim{font-size:19px}}
+
+/* SINA project and illustrated funding path */
+.ki-mark{position:absolute;z-index:2;top:12px;left:12px;border:1px solid white;border-radius:4px;background:#153e3b;color:white;padding:3px 7px;font:700 14px/1.2 system-ui,sans-serif;letter-spacing:.03em}
+.station-portrait .ki-mark{top:auto;bottom:-3px;left:0;padding:2px 5px}
+.sina-photo img{object-position:46% center}
+.sina-photo figcaption>span,.sina-card .image-tag,.sina-wide figcaption{background:#153e3b;color:white;padding:5px 9px;font:600 14px/1.4 system-ui,sans-serif;letter-spacing:normal;max-width:none}
+.sina-path-link{display:inline-block;margin-top:6px;font-size:15px;font-weight:700;color:#153e3b;text-decoration:underline;text-underline-offset:3px}
+.sina-wide{position:relative;max-width:1120px;margin:0 auto}
+.sina-wide img{display:block;width:100%;height:auto}
+.sina-wide figcaption{position:absolute;bottom:12px;left:12px}
+.sina-story{max-width:880px;margin:auto}
+.sina-story section+section{margin-top:3rem}
+.sina-story h2{font-size:clamp(1.8rem,4vw,3.2rem);margin:0 0 1rem}
+.sina-story p:not(.eyebrow),.sina-story li{font-size:1.125rem;line-height:1.65}
+.sina-story li+li{margin-top:.7rem}
+.sina-story .text-link{margin-top:1rem}
+.sina-card .image-tag{top:auto;bottom:12px;left:12px}
+.sina-photo>img{animation:none}
+
+.sina-versions{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:1.7rem}
+.sina-versions a{border:1px solid #506c61;padding:.55rem .85rem;border-radius:4px;font:600 .9rem/1.3 system-ui;color:#153e3b;background:#fff;text-decoration:none}
+.sina-versions a[aria-current=page]{background:#153e3b;color:white}
+.sina-versions a:hover{text-decoration:underline}
+.sina-story h3{font-size:1.35rem;line-height:1.25}
+.sina-story p+h3{margin-top:1.5rem}
+.sina-story .sina-source{font-size:.9rem;margin-top:2rem}
+
+.sina-intro .text-link{margin-top:1em}
+.sina-route{scroll-margin-top:85px}
+.sina-route .section-heading{align-items:end}
+.sina-route figure{margin:0}
+.sina-route figcaption{font-size:.9rem;line-height:1.5;color:#38574b}
+.sina-route .station-kicker{font-size:11px;letter-spacing:.05em}
+.mountain-sina .station-copy p{font-size:14px;line-height:1.42;max-width:26ch}
+.mountain-sina .sina-summit .station-portrait{border-color:#fff;box-shadow:0 0 0 4px var(--rose)}
+.mountain-sina .sina-summit .station-kicker{color:#772a46;font-weight:800}
+@media(min-width:801px){.mountain-sina{min-height:720px}.mountain-sina .station-1{top:60%}.mountain-sina .station-2{top:49%}.mountain-sina .station-3{top:32%}.mountain-sina .station-4{top:14%}}
+@media(min-width:801px) and (max-width:1050px){.mountain-sina .station-copy p{font-size:13px}.mountain-sina .mountain-station{width:23%}}
+@media(max-width:800px){.mountain-sina{min-height:0;padding-bottom:2rem}.mountain-sina .mountain-station{min-height:0}.mountain-sina .mountain-stations{gap:3rem}.mountain-sina .station-copy p{max-width:38ch}.sina-route figcaption{margin-top:1rem}}
+@media(max-width:800px){.mountain-sina{overflow:hidden}.mountain-sina:before{inset-inline:0}.mountain-sina{padding-inline:6px}}
