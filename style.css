@@ -48,8 +48,9 @@
 @media(max-width:800px){.board-line{grid-template-columns:1fr;gap:38px;max-width:360px}.board-line:before{left:50%;right:auto;top:47px;bottom:60px;border-top:0;border-left:2px dashed #9baf98}.board-member{background:var(--mint);padding-bottom:6px}.foundation-claim{font-size:19px}}
 
 /* SINA project and illustrated funding path */
-.ki-mark{position:absolute;z-index:2;top:12px;left:12px;border:1px solid white;border-radius:4px;background:#153e3b;color:white;padding:3px 7px;font:700 14px/1.2 system-ui,sans-serif;letter-spacing:.03em}
-.station-portrait .ki-mark{top:auto;bottom:-3px;left:0;padding:2px 5px}
+.ki-mark{position:absolute;z-index:2;right:8px;bottom:6px;color:rgba(255,255,255,.92);font:500 10px/1.2 system-ui,sans-serif;letter-spacing:.02em;text-shadow:0 0 3px rgba(0,0,0,.75),0 0 1px rgba(0,0,0,.9);pointer-events:none;white-space:nowrap}
+.ki-note{position:absolute;right:12px;bottom:10px;z-index:2;color:#4a5a55;font:500 10px/1.2 system-ui,sans-serif;letter-spacing:.02em}
+@media(max-width:800px){.ki-note{right:0;bottom:8px}}
 .sina-photo img{object-position:46% center}
 .sina-photo figcaption>span,.sina-card .image-tag,.sina-wide figcaption{background:#153e3b;color:white;padding:5px 9px;font:600 14px/1.4 system-ui,sans-serif;letter-spacing:normal;max-width:none}
 .sina-path-link{display:inline-block;margin-top:6px;font-size:15px;font-weight:700;color:#153e3b;text-decoration:underline;text-underline-offset:3px}
@@ -86,3 +87,5 @@
 @media(min-width:801px) and (max-width:1050px){.mountain-sina .station-copy p{font-size:13px}.mountain-sina .mountain-station{width:23%}}
 @media(max-width:800px){.mountain-sina{min-height:0;padding-bottom:2rem}.mountain-sina .mountain-station{min-height:0}.mountain-sina .mountain-stations{gap:3rem}.mountain-sina .station-copy p{max-width:38ch}.sina-route figcaption{margin-top:1rem}}
 @media(max-width:800px){.mountain-sina{overflow:hidden}.mountain-sina:before{inset-inline:0}.mountain-sina{padding-inline:6px}}
+/* Hero-Buttons etwas breiter, damit „Eigene Idee einbringen“ auf dem Desktop nicht umbricht (Abstimmung mit Ralf am 23.11.2026) */
+@media(min-width:801px){.hero-actions{width:100%}.hero-actions .button{flex:1 1 0;min-width:max-content;max-width:250px;white-space:nowrap}}
