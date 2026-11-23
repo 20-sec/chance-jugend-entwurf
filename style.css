@@ -37,6 +37,7 @@
 .board-line:before{content:"";position:absolute;left:16.6%;right:16.6%;top:47px;border-top:2px dashed #9baf98}
 .board-member{position:relative}
 .board-portrait{width:95px;height:95px;margin:0 auto 22px;border-radius:50%;border:6px solid #f8f7ef;box-shadow:0 6px 17px #234d3923;background:#d3ded0;display:grid;place-items:center;position:relative;z-index:1}
+.board-portrait{overflow:hidden}.board-portrait img{width:100%;height:100%;object-fit:cover;display:block}
 .board-portrait span{font-family:var(--serif);font-size:24px;color:var(--green)}
 .board-member h3{font-size:24px;margin-bottom:8px}
 .board-member p{font-size:13px;color:var(--muted);letter-spacing:.02em}
