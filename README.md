@@ -24,7 +24,7 @@ Bildrechte und Markenrechte verbleiben bei den jeweiligen Rechteinhabern. Es wir
 
 ## Bergweg
 
-Der Förderansatz erscheint als ansteigender Bergweg mit vier Stationen. Auf den Projektseiten werden die jeweiligen Schwerpunkte hervorgehoben; die übrigen Stationen bleiben als Kontext sichtbar. Auf schmalen Bildschirmen wird der Weg vertikal lesbar dargestellt.
+Der Förderansatz erscheint als ansteigender Bergweg mit vier Stationen. Seit dem 25. November 2026 sind auf allen Seiten alle vier Stationen gleich dunkel dargestellt (siehe Gestaltungsstandards). Auf schmalen Bildschirmen wird der Weg vertikal lesbar dargestellt.
 
 ## Interaktive Projektkarte – Cooktastic
 
@@ -51,3 +51,11 @@ Die Logo-Fassungen verwenden den unveränderten Originalumriss mit einer SVG-Far
 ## Ergänzender Pressehinweis
 
 Ralfs Mail vom 9. November 2026 enthält einen Link der Berliner Zeitung zu Kindern in Kiew vor dem nächsten Kriegswinter. Dieser ist unter „Presse & Hintergründe“ als weiterführender Pressehinweis verlinkt; keine Behauptung einer Berichterstattung über die Stiftung und keine Übernahme des Artikeltexts. Im Browser geprüft: Originaltitel, Autor Ralf M. Ruthardt, Datum 04.11.2026; Volltext hinter B+-Zugang.
+
+## Gestaltungsstandards seit dem 25. November 2026
+
+Rückmeldung von Ralf Ruthardt, von Markus Coenen als Standard für alle bestehenden und künftigen Seiten bestätigt.
+
+- **Kein Text unter dem Förderweg.** Unter dem Bergweg-Block steht weder Legende noch Bedienhinweis noch Einordnung. Kein `path-note`-Absatz und keine `figcaption` unter dem Block.
+- **Alle vier Stationen dunkel.** Station, Nummer und Überschrift erscheinen bei jeder Station in der dunklen Fassung (`is-active`). Die ausgegraute Fassung `is-context` wird nicht mehr verwendet. Die Einordnung steht nur in der kleinen Zeile über der Station.
+- **KI-Kennzeichnung.** Klein unten rechts, in dieser Größe oder kleiner. Einzelne KI-Bilder, auch fotorealistische: `Bild: KI-generiert` (Klasse `ki-mark`). Der Förderweg als Ganzes, auch wenn darin Fotos von Menschen stehen: `Grafik: KI-generiert` (Klasse `ki-note`). Originalfotos erhalten keine Kennzeichnung. Der Hinweis im Impressum nennt denselben Wortlaut.
