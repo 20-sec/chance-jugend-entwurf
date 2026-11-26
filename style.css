@@ -98,3 +98,7 @@
 .consent-link{background:none;border:0;padding:8px 0;color:var(--green);text-decoration:underline;cursor:pointer;font:inherit}
 .consent-footer{background:none;border:0;padding:0;margin-left:18px;color:inherit;font:inherit;cursor:pointer}.consent-footer:hover{text-decoration:underline}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Foto innerhalb einer Projektgeschichte */
+.story-body figure{margin:28px 0}
+.story-body figure img{display:block;width:100%;height:auto}
+.story-body figcaption{font-size:11px;color:var(--muted);margin-top:8px}

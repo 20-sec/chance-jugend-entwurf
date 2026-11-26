@@ -59,3 +59,10 @@ Rückmeldung von Ralf Ruthardt, von Markus Coenen als Standard für alle bestehe
 - **Kein Text unter dem Förderweg.** Unter dem Bergweg-Block steht weder Legende noch Bedienhinweis noch Einordnung. Kein `path-note`-Absatz und keine `figcaption` unter dem Block.
 - **Alle vier Stationen dunkel.** Station, Nummer und Überschrift erscheinen bei jeder Station in der dunklen Fassung (`is-active`). Die ausgegraute Fassung `is-context` wird nicht mehr verwendet. Die Einordnung steht nur in der kleinen Zeile über der Station.
 - **KI-Kennzeichnung.** Klein unten rechts, in dieser Größe oder kleiner. Einzelne KI-Bilder, auch fotorealistische: `Bild: KI-generiert` (Klasse `ki-mark`). Der Förderweg als Ganzes, auch wenn darin Fotos von Menschen stehen: `Grafik: KI-generiert` (Klasse `ki-note`). Originalfotos erhalten keine Kennzeichnung. Der Hinweis im Impressum nennt denselben Wortlaut.
+
+## Ergänzung vom 26. November 2026
+
+- Neue Projektseiten `life-choices.html` und `jugendwerk-bamberg.html` im Aufbau der Don-Bosco-Sachsen-Seite: Einstieg mit Foto, Förderweg mit Ziffern, Projektgeschichte in vier Schritten (Ausgangslage, was das Projekt daraus macht, Beitrag der Stiftung, was es bringt). Beide stehen als Karten in der Projektübersicht.
+- Neue Meldung `ich-werde-zeitzeuge.html` auf dem zweiten Platz unter Aktuelles; der Platzhalter ist entfernt.
+- Fotos: Life Choices und „Ich werde Zeitzeuge“ aus dem bisherigen öffentlichen Auftritt der Stiftung, Jugendwerk Bamberg aus den von der Stiftung zugelieferten Originalbildern. Keine Bilder von Partner-Websites. Förderbeträge sind nicht genannt.
+- `style.css`: Regel für ein Foto innerhalb einer Projektgeschichte (`.story-body figure`). `site.js`: Betreffzeilen für die beiden neuen Projekte.
