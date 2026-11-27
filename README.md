@@ -32,7 +32,7 @@ Drei Bildpunkte im Berg öffnen Fotos, Erläuterungen und weiterführende Links 
 
 ## Deutscher Ausbau
 
-- Projektübersicht mit Regionsauswahl, vier ausgewählten Projektgeschichten und einem Verzeichnis der 37 bisherigen deutschen Projektberichte. Der SINA-Beitrag und die Verzeichniseinträge verlinken derzeit auf den bisherigen öffentlichen Auftritt.
+- Projektübersicht mit Regionsauswahl, vier ausgewählten Projektgeschichten und einem Verzeichnis der 37 bisherigen deutschen Projektberichte. Die Verzeichniseinträge verlinken derzeit auf den bisherigen öffentlichen Auftritt.
 - Neue Projektseite für Don Bosco Sachsen.
 - House-of-Hope-Karte mit fünf Bildpunkten, Originalbildern und ausführlichen Angebotsabschnitten. Familienarbeit ist als weiterführender Ansatz eingeordnet.
 - Aktuelles & Einblicke mit einer quellenbasierten Schlafsackaktion, Projektverweisen und vier Presseverweisen. Spendeninformationen werden über den bestehenden Aufruf der Stiftung erschlossen. Es wurden keine neuen Veröffentlichungsdaten oder Spendenziele erfunden.
@@ -66,3 +66,12 @@ Rückmeldung von Ralf Ruthardt, von Markus Coenen als Standard für alle bestehe
 - Neue Meldung `ich-werde-zeitzeuge.html` auf dem zweiten Platz unter Aktuelles; der Platzhalter ist entfernt.
 - Fotos: Life Choices und „Ich werde Zeitzeuge“ aus dem bisherigen öffentlichen Auftritt der Stiftung, Jugendwerk Bamberg aus den von der Stiftung zugelieferten Originalbildern. Keine Bilder von Partner-Websites. Förderbeträge sind nicht genannt.
 - `style.css`: Regel für ein Foto innerhalb einer Projektgeschichte (`.story-body figure`). `site.js`: Betreffzeilen für die beiden neuen Projekte.
+
+## Rückmeldungen vom 26. und 27. November 2026
+
+- Der Einstieg „Spenden & engagieren“ auf der Startseite führt direkt zu `spenden.html`.
+- Projektübersicht: alte SINA-Karte und alter SINA-Verzeichniseintrag entfernt, es gibt nur noch „SINA in Palabek“. Auswahl „Weitere Regionen“ entfernt; die beiden Einträge bleiben unter „Alle Regionen“ sichtbar.
+- „Ich werde Zeitzeuge“: Quellenvermerk am Ende entfernt.
+- Life Choices: Fotos aus den Jahresberichten des Projektpartners (`life-choices-gespraech.jpg` auf der Projektseite, `life-choices-lernen.jpg` in der Projektübersicht). Bildrechte beim Projektpartner.
+- Fuß aller Seiten: Links zu LinkedIn, Instagram und Facebook der Stiftung (öffnen in neuem Tab, es wird nichts von dort geladen).
+- House of Hope and Glory: drei Fotos von der Website des Projektträgers (`house-of-hope-2.jpg`, `hoh-mahlzeit-2.jpg`, `hoh-schach-2.jpg`) ersetzen die kleineren bisherigen Fassungen. Bildrechte beim Projektträger.
